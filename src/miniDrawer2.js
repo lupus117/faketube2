@@ -39,7 +39,7 @@ import {
 import Sten from "./sten.png";
 import Youtube1 from "./YoutubeFull.png";
 
-const drawerWidth = 240;
+const drawerWidth = 260;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -312,10 +312,7 @@ export default function PersistentDrawerLeft() {
               <ListItemIcon>
                 <Avatar alt="ok" />
               </ListItemIcon>
-              <ListItemText
-                color="textPrimary"
-                secondary={"You're not supposed to scroll this far"}
-              />
+              <ListItemText color="textPrimary" secondary={"The end of all"} />
             </ListItem>
           </List>
         </div>

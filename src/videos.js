@@ -15,17 +15,33 @@ import vid4 from "./vidz/vid4.png";
 import Sten from "./sten.png";
 
 const videos = [
-  { video: vid1, title: "Berd Dances", avatar: <Avatar>B</Avatar> },
-  { video: vid2, title: "Dog does a thing", avatar: <Avatar>D</Avatar> },
+  {
+    video: vid1,
+    title: "Berd Dances",
+    avatar: <Avatar>B</Avatar>,
+    creator: "Berd",
+    views: "100M",
+  },
+  {
+    video: vid2,
+    title: "Dog does a thing",
+    avatar: <Avatar>D</Avatar>,
+    creator: "Dogman",
+    views: "10K",
+  },
   {
     video: vid3,
     title: "The beauty of dark souls",
     avatar: <Avatar>DS</Avatar>,
+    creator: "VaatiVidya",
+    views: "10M",
   },
   {
     video: vid4,
     title: "I and my friends make a painting",
     avatar: <Avatar src={Sten}>Sten</Avatar>,
+    creator: "Sten unt",
+    views: "1",
   },
 ];
 
@@ -58,6 +74,8 @@ export default function NestedGrid() {
     const video = videos[i].video;
     const title = videos[i].title;
     const _avatar = videos[i].avatar;
+    const creator = videos[i].creator;
+    const views = videos[i].views;
 
     return (
       <div classname={classes.paperContainer}>
@@ -72,6 +90,14 @@ export default function NestedGrid() {
           <Button startIcon={_avatar} size="small" color="secondary">
             <Typography component="body2">{title}</Typography>
           </Button>
+          <br />
+          <Typography component="body2" variant="body2">
+            {creator}
+          </Typography>
+          <br />
+          <Typography component="body2" variant="body2">
+            Views: {views}
+          </Typography>
         </Box>
       </div>
     );
