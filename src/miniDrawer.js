@@ -15,12 +15,12 @@ import ListItemText from "@material-ui/core/ListItemText";
 
 import {
   Drawer,
-  Button,
+  //  Button,
   Divider,
-  Icon,
+  // Icon,
   TextField,
   Avatar,
-  Container,
+  // Container,
 } from "@material-ui/core/";
 import {
   HomeSharp,
@@ -32,7 +32,7 @@ import {
   ThumbUpAltSharp,
   VideoLibrary,
   Search,
-  ThumbDown,
+  //  ThumbDown,
   Mic,
   Apps,
 } from "@material-ui/icons";

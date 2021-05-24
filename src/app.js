@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import MiniDrawer from "./miniDrawer";
+//import MiniDrawer from "./miniDrawer";
 import MiniBetter from "./miniDrawer2";
 
 import Videos from "./videos.js";
