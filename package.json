@@ -2,12 +2,7 @@
     "name": "faketube",
     "version": "0.1.0",
     "private": true,
-<<<<<<< HEAD
     "repository": "http://github.com/lupus117/faketube2",
-=======
-    "homepage": ".",
-    "repository": "https://github.com/lupus117/faketube",
->>>>>>> parent of 5432424 (Updates)
     "dependencies": {
         "@material-ui/core": "^4.11.3",
         "@material-ui/icons": "^4.11.2",
